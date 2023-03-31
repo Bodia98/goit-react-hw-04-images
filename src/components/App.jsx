@@ -53,7 +53,7 @@ export const App = () => {
   
   
   const addNewImagesToGallery = () => {
-      setPage(page + 1)
+      setPage(prevPage => prevPage + 1);
     }
   
   const getInputValue = (val) => {
